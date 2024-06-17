@@ -1,0 +1,43 @@
+body {
+    background-image: url(fotos/img\ fundo\ 2.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color:rgb(95, 95, 95);
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 5px solid black;
+    box-shadow: 10px 10px 5px #383838;
+}
+
+.gallery {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.foto {
+    display: block;
+    text-align: center;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+}
+
+
+
